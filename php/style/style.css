@@ -1,0 +1,85 @@
+body{
+    background:rgb(240,240,240);
+}
+/*----------------------- Partie bandeau head ----------------------------*/
+.head{
+    /*border:1px solid;*/
+    background-color: rgb(171, 220, 24);
+    width: 100%;
+    height:50px;
+}
+.head a{
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 21px;
+}
+.head a:hover{
+    text-decoration:none;
+    color:rgb(171, 220, 24);
+    background-color:#FFF;
+    padding:10px;
+    padding-top:0px;
+}
+/*---------------------------- Formulaire ----------------------------*/
+.headCorp{
+    border: 1px solid;
+    height: 45px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    background-color:#FFF;
+    color:rgb(171, 220, 24);
+}
+.headCorp span{
+    margin-left:20px;
+}
+.headCorp span#right{
+    margin-left: 50%;
+}
+.headCorp span#right select{
+    border: 0px;
+    color: rgb(171, 220, 24);
+}
+
+div.block{
+    border: 3px solid rgb(171, 220, 24);
+    width: 25%;
+    margin-left: 6%;
+    height: 409px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color:#FFF;
+}
+.imageBlock
+{
+    background-size: contain;
+    background-position: 50% 50%;
+    background-image: url(../img/testImage.jpg);
+    width: 300px;
+    height: 300px;
+    border: none;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 147px;
+    border: 2px solid rgb(171, 220, 24);
+    margin-left: 12%;
+    margin-top: 10px;
+}
+
+.info{
+    background-color: rgb(171, 220, 24);
+    width: 100%;
+    height: 97px;
+    display: block;
+    color: #fff;
+}
+div.block:hover{
+    background-color:rgb(171, 220, 24);
+}
+.descr{
+    background-color:rgb(171, 220, 24);
+    display:none;
+}
